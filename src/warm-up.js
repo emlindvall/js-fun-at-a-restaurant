@@ -42,7 +42,7 @@ var isFavorite = true
 // comparison operator.
 
 var shouldOrderMore = (inStock < 20);
-console.log(shouldOrderMore);
+// console.log(shouldOrderMore);
 
 
 //------------------------- Conditionals -------------------------//
@@ -53,13 +53,29 @@ console.log(shouldOrderMore);
 // the statement 'I'm going to eat some [food]!', otherwise, log the statement 
 // 'We need to get some more [food].'
 
+var stockCount = 2
+if (stockCount >= 1)    {
+    console.log(`I'm going to eat some ${food}.`);
+}
 
+// inStock = 0
+// if (inStock >= 1)    {
+//     console.log(`I'm going to eat some ${food}.`);
+// } else {
+//     console.log(`Sadly, we're out of ${food}.`);
+// }
 
 // Express the following in code: If the variable "isFavorite" is true,
 // log the statement 'My favorite food is [food]!'. Otherwise, log the
 // statement 'I recently ate [food]'. In either case, the value stored in
 // the "food" variable should be included in the logged statement.
 
+// isFavorite = false
+if (isFavorite === true)    {
+    console.log(`My favorite food is ${food}!`);
+} else {
+    console.log(`I recently ate ${food}.`);
+}
 
 
 //------------------------- Arrays -------------------------//
