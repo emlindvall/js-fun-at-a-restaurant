@@ -109,7 +109,17 @@ console.log(fruits[4]);
 // keys: name, and isOpen. The value for name should the string 'King Soopers' (or your favorite grocery store), and
 // the value for isOpen should be true. Which other key value pairs would make sense to add to this object?
 
-
+var groceryStore = {
+    name: "King Soopers",
+    isOpen: true,
+    neighborhood: "Capitol Hill",
+    parkingSpaces: 40,
+    alsoKnownAs: "Queen Soopers",
+}
+// console.log(groceryStore);
 
 // Write the code to add the key of location, with the value of 'Denver, Colorado'. Use dot
 // notation to do this. DO NOT modify your code from above.
+
+groceryStore.loction = "Denver, Colorado";
+// console.log(groceryStore);
