@@ -21,6 +21,8 @@ function addMenuItem(pizzaRestaurant, menuItem)  {
   return pizzaRestaurant;
 }
 
+// This is about to be sooooo gnarly. Brace yourself.
+
 function removeMenuItem(pizzaRestaurant, menuItem, itemType) {
   if (itemType === "breakfast" && pizzaRestaurant.menus.breakfast.length > 0) {
     for (var i = 0; i <= pizzaRestaurant.menus.breakfast.length; i++) {
